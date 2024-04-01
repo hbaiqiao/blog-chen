@@ -187,8 +187,6 @@ axios上传文件
 
 <h2>效果展示</h2>
 
-![fb46e02027321f0502cd05fdd9299ad](https://github.com/hbaiqiao/blog-chen/assets/79921484/dc618ffa-cbc2-42c8-9759-38ffd4d1403f)
-
 ![image](https://github.com/hbaiqiao/blog-chen/assets/79921484/bd2b7848-783a-4f9f-aee2-18f81743a9b2)
 
 ![image](https://github.com/hbaiqiao/blog-chen/assets/79921484/4a8845a1-c86b-42e3-b614-1a21f361b68b)
@@ -206,6 +204,10 @@ axios上传文件
 ![image](https://github.com/hbaiqiao/blog-chen/assets/79921484/f41bc33d-0b1e-4c3e-9b9a-09c6a07d02b2)
 
 ![image](https://github.com/hbaiqiao/blog-chen/assets/79921484/9213791a-3c4a-4963-b243-1b32224b7d1f)
+
+
+![fb46e02027321f0502cd05fdd9299ad](https://github.com/hbaiqiao/blog-chen/assets/79921484/9e052821-a7bd-4db4-8675-e026c44de325)
+
 
 
 
