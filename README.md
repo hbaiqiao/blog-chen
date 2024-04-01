@@ -24,7 +24,8 @@
 3、在配置 Nginx serve 是注意端口的配置， 和后端 Jar 运行端口的配置， 在云服务器管理的防火墙中 开放端口，才能通过访问权限
 4、服务器文件夹要 开放读写权限， 主要注意文件写入的权限，未开放后端在接收 前端的文件时，写入文件会发生错误
  
-![image](https://github.com/hbaiqiao/blog-chen/assets/79921484/7566069a-a3f1-4ffc-a738-86103181e32d)
+![image](https://github.com/hbaiqiao/blog-chen/assets/79921484/3901a944-8eee-450f-8df0-f16ef4b2d3e9)
+
 
 例如上方所示，未开放文件写权限导致
 5、注意使用绝对路径，Linux 根路径 / 
@@ -103,7 +104,8 @@ axios上传文件
                })
 </code>
 <h3>六、图文模块图片上传代码</h3>
-<code>
+```
+
        addPic(){
           let fileSelect = document.createElement('input')
           fileSelect.type = 'file'
@@ -166,7 +168,7 @@ axios上传文件
           })
          
        },
-</code>
+```
 
 <h3>七、音乐模块上传封面、代码精简</h3>
 <code>
@@ -198,7 +200,8 @@ axios上传文件
 </code>
 
 <h2>效果展示</h2>
-
+![fb46e02027321f0502cd05fdd9299ad](https://github.com/hbaiqiao/blog-chen/assets/79921484/4c8d81cb-265a-4164-abe2-fcae9e68c82b)
+</br>
 ![image](https://github.com/hbaiqiao/blog-chen/assets/79921484/bd2b7848-783a-4f9f-aee2-18f81743a9b2)
 </br>
 ![image](https://github.com/hbaiqiao/blog-chen/assets/79921484/4a8845a1-c86b-42e3-b614-1a21f361b68b)
@@ -216,6 +219,8 @@ axios上传文件
 ![image](https://github.com/hbaiqiao/blog-chen/assets/79921484/f41bc33d-0b1e-4c3e-9b9a-09c6a07d02b2)
 </br>
 ![image](https://github.com/hbaiqiao/blog-chen/assets/79921484/9213791a-3c4a-4963-b243-1b32224b7d1f)
+
+
 
 
 
