@@ -1,0 +1,2 @@
+static 存放vue打包生成文件，是产品正式版本，使后端集成了前端
+application.properties 是配置文件
