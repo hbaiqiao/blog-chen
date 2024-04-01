@@ -66,13 +66,10 @@ const newfile = {
         let hour = date.getHours()
         let minute = date.getMinutes()
         let second = date.getSeconds()
-
-        let filename = ''+ year + mouth + day + hour + minute + second + this.getNum() + this.getNum() + this.getNum() + this.getNum() +this.getNum() + this.getNum() +file.name.substr(file.name.lastIndexOf("."));
-        
+        let filename = ''+ year + mouth + day + hour + minute + second + this.getNum() + this.getNum() + this.getNum() + this.getNum() +this.getNum() + this.getNum() +file.name.substr(file.name.lastIndexOf(".")); 
         let newFile = new File([file],filename,{type:file.type});
         console.log(newFile.name);
         return newFile
-
     },
     getNum:function(){
         //随机0-9
@@ -80,7 +77,6 @@ const newfile = {
     } 
 }
 export default newfile
-
 </code>
 传入文件对象，通过时间日期和6位随机数字来实现重命名，防止文件重复，复制新文件，返回文件对象
 <h3> 五、文件上传</h3>
@@ -96,7 +92,6 @@ axios上传文件
 <code>
                const formDataImg = new FormData();
                formDataImg.append('file', this.imgFile)
-
                this.axios.post('/musicImgFile',
                   formDataImg
                ).then(res=>{
@@ -104,8 +99,7 @@ axios上传文件
                })
 </code>
 <h3>六、图文模块图片上传代码</h3>
-```
-
+<code>
        addPic(){
           let fileSelect = document.createElement('input')
           fileSelect.type = 'file'
@@ -114,11 +108,11 @@ axios上传文件
           H3.appendChild(fileSelect)
         //   content.appendChild(H3)
           let img = document.createElement('img')
-
           fileSelect.click()
           fileSelect.addEventListener('change',()=>{
             if(!fileSelect.files[0]&&img.src) {
-                for(let i = 0;i                     if(img.dataName == this.filesData[i].name){
+                for(let i = 0;i<length;i++)               
+                   if(img.dataName == this.filesData[i].name){
                            this.filesData.splice(i,1)
                            console.log(this.filesData);
                      }
@@ -127,7 +121,6 @@ axios上传文件
                 return
             }
             console.log(fileSelect.files[0]);
-           
             let file = fileSelect.files[0]
              if(file.type.search(/image/)==-1){
                   alert('选择文件非图片类型')
@@ -138,12 +131,10 @@ axios上传文件
             //完成文件的随机命名
             img.dataName ='' + date.getFullYear() + date.getMonth() + date.getDay() + date.getHours()+date.getMinutes() +date.getSeconds()+Math.floor(Math.random()*1000)+Math.floor(Math.random()*1000) + file.name.substr(file.name.lastIndexOf("."));
             //复制文件重命名
-
             var newFile = new File([file],img.dataName,{type:file.type});
             console.log(newFile.name);
             //添加进文件组
             this.filesData.push(newFile)
-
             //完成路径src的封装
             // img.dataSrc = 'http://127.0.0.1:6660/api/file/blog/'+ img.dataName
             img.dataSrc = this.axios.defaults.baseURL +'/file/blog/'+ img.dataName
@@ -161,15 +152,12 @@ axios上传文件
           }
              content.appendChild(img)
           })
-          //更改图片
-          
+          //更改图片   
           img.addEventListener('click',()=>{
                fileSelect.click()             
           })
-         
        },
-```
-
+</code>
 <h3>七、音乐模块上传封面、代码精简</h3>
 <code>
        uploadImg(){
@@ -194,8 +182,6 @@ axios上传文件
                this.cover = this.axios.defaults.baseURL + '/file/musicImg/'+ newFile.name 
                console.log(this.cover);
           })   
-
-
        },
 </code>
 
