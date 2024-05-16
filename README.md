@@ -9,6 +9,29 @@
 4、视口布局，flex布局实现响应式布局、使用媒体查询兼容移动端页面的显示。</br>
 
 
+<h2>效果展示</h2>
+
+![image](https://github.com/hbaiqiao/blog-chen/assets/79921484/bd2b7848-783a-4f9f-aee2-18f81743a9b2)
+
+![image](https://github.com/hbaiqiao/blog-chen/assets/79921484/4a8845a1-c86b-42e3-b614-1a21f361b68b)
+
+![image](https://github.com/hbaiqiao/blog-chen/assets/79921484/d3283eea-47a1-464a-8b28-b4c1701546f9)
+
+![image](https://github.com/hbaiqiao/blog-chen/assets/79921484/15450da9-c5b2-4a4d-ae22-e6a792db1a98)
+
+![image](https://github.com/hbaiqiao/blog-chen/assets/79921484/3f9849c9-7c5f-4aec-9da8-69924e4789d5)
+
+![image](https://github.com/hbaiqiao/blog-chen/assets/79921484/46d90f0c-0571-4783-b09e-6b151da5cd96)
+
+![image](https://github.com/hbaiqiao/blog-chen/assets/79921484/b6ad0983-4cd9-4ccc-8a42-3bfb30caa0ff)
+
+![image](https://github.com/hbaiqiao/blog-chen/assets/79921484/f41bc33d-0b1e-4c3e-9b9a-09c6a07d02b2)
+
+![image](https://github.com/hbaiqiao/blog-chen/assets/79921484/9213791a-3c4a-4963-b243-1b32224b7d1f)
+
+
+![fb46e02027321f0502cd05fdd9299ad](https://github.com/hbaiqiao/blog-chen/assets/79921484/9e052821-a7bd-4db4-8675-e026c44de325)
+
 <h2>笔记一、博客建站记录</h2>      
 
 <h3>一、技术选型</h3>     
@@ -193,28 +216,6 @@ axios上传文件
        },
 </code>
 
-<h2>效果展示</h2>
-
-![image](https://github.com/hbaiqiao/blog-chen/assets/79921484/bd2b7848-783a-4f9f-aee2-18f81743a9b2)
-
-![image](https://github.com/hbaiqiao/blog-chen/assets/79921484/4a8845a1-c86b-42e3-b614-1a21f361b68b)
-
-![image](https://github.com/hbaiqiao/blog-chen/assets/79921484/d3283eea-47a1-464a-8b28-b4c1701546f9)
-
-![image](https://github.com/hbaiqiao/blog-chen/assets/79921484/15450da9-c5b2-4a4d-ae22-e6a792db1a98)
-
-![image](https://github.com/hbaiqiao/blog-chen/assets/79921484/3f9849c9-7c5f-4aec-9da8-69924e4789d5)
-
-![image](https://github.com/hbaiqiao/blog-chen/assets/79921484/46d90f0c-0571-4783-b09e-6b151da5cd96)
-
-![image](https://github.com/hbaiqiao/blog-chen/assets/79921484/b6ad0983-4cd9-4ccc-8a42-3bfb30caa0ff)
-
-![image](https://github.com/hbaiqiao/blog-chen/assets/79921484/f41bc33d-0b1e-4c3e-9b9a-09c6a07d02b2)
-
-![image](https://github.com/hbaiqiao/blog-chen/assets/79921484/9213791a-3c4a-4963-b243-1b32224b7d1f)
-
-
-![fb46e02027321f0502cd05fdd9299ad](https://github.com/hbaiqiao/blog-chen/assets/79921484/9e052821-a7bd-4db4-8675-e026c44de325)
 
 
 
